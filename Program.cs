@@ -4,12 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"la suma de mi primer y ultimo digito es ID : {Add(2,9)}");
+            Console.WriteLine($"la multiplicacion de mi primer y ultimo digito es ID : {Multiply(2, 9)}");
         }
 
         static int Add(int x, int y)
         {
+        
             return x + y;
+        }
+
+        static int Multiply(int x, int y)
+        {   
+            return x * y;   
         }
     }
 }
