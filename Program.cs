@@ -21,10 +21,16 @@
         static int Subtract(int x, int y)
         {
             return x - y;
+        }
 
         static int Divide(int x, int y)
         {
+            if (y == 0)
+                {
+                    throw new DivideByZeroException($"No se puede dividir por cero. Los valores son: {x} y {y}");
+                }
             return x / y;
+
         }
     }
 }
