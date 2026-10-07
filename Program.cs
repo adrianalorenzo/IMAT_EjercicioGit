@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"la resta de mi primer y ultimo digito es ID : {Subtract(2, 9)}");
+            Console.WriteLine($"la división de mi primer y ultimo digito es ID : {Divide(2, 9)}");
         }
 
         static int Add(int x, int y)
@@ -21,6 +21,10 @@
         static int Subtract(int x, int y)
         {
             return x - y;
+
+        static int Divide(int x, int y)
+        {
+            return x / y;
         }
     }
 }
