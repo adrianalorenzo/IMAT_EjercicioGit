@@ -27,7 +27,7 @@
         {
             if (y == 0)
                 {
-                    throw new DivideByZeroException("No se puede dividir por cero.");
+                    throw new DivideByZeroException($"No se puede dividir por cero. Los valores son: {x} y {y}");
                 }
             return x / y;
 
